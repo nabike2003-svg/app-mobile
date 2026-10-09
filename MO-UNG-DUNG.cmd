@@ -16,6 +16,7 @@ if errorlevel 1 (
   pause
   exit /b 1
 )
+echo Neu Windows hoi quyen mang Node.js, cho phep tren Wi-Fi rieng.
 echo Giu cua so nay mo. Dung Camera iPhone quet ma QR hien ben duoi.
-call npm start -- --go
+call npm run dev
 pause

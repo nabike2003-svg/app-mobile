@@ -8,13 +8,16 @@
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
-    "check": "tsc --noEmit",
-    "test": "node --test tests/*.test.mjs"
+    "check": "tsc --noEmit && node --check server/api.mjs && node --check server/launch.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "dev": "node server/launch.mjs",
+    "server": "node server/start.mjs"
   },
   "dependencies": {
     "@expo/vector-icons": "^15.1.1",
     "@types/react": "^19.3.0",
     "expo": "57.0.27",
+    "expo-constants": "~57.0.21",
     "expo-status-bar": "~57.0.1",
     "react": "19.2.3",
     "react-dom": "19.2.3",

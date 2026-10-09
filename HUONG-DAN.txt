@@ -1,11 +1,24 @@
-LÂM THAO ĂN GÌ? - BẢN MẪU
+LÂM THAO ĂN GÌ? — KHÁCH HÀNG, TÀI XẾ VÀ ADMIN
 
-1. Cài Node.js LTS trên Windows từ https://nodejs.org.
-2. Giải nén toàn bộ file ZIP.
-3. Nhấp đúp MO-UNG-DUNG.cmd trong thư mục đã giải nén.
-4. Đợi cài xong và xuất hiện QR. Giữ cửa sổ này mở.
-5. Máy tính và iPhone dùng cùng Wi-Fi. Mở Camera iPhone quét QR, chọn mở bằng Expo Go.
+1. Cài Node.js LTS mới (ít nhất 22.13) từ https://nodejs.org.
+2. Giải nén toàn bộ file ZIP vào một thư mục mới.
+3. Nhấp đúp MO-UNG-DUNG.cmd. Đợi cài xong và xuất hiện mã QR.
+4. Nếu Windows hỏi quyền mạng Node.js, cho phép trên Wi-Fi riêng mà bạn tin cậy.
+5. Máy tính và iPhone cùng Wi-Fi. Dùng Camera iPhone quét QR và mở bằng Expo Go. Giữ cửa sổ máy tính mở.
 
-Nếu Windows hỏi quyền mạng của Node.js, cho phép trên mạng Wi-Fi riêng mà bạn tin cậy.
-Nếu có lỗi hoặc Expo Go báo không tương thích, chụp ảnh thông báo gửi trong chat.
-Bản mẫu chưa gửi đơn thật, chưa thanh toán. Dùng thông tin giả để thử.
+THỬ CẢ BA VAI TRÒ
+- Chọn Khách hàng → Đăng ký → tạo đơn thử.
+- Đăng xuất (biểu tượng góc trên phải).
+- Chọn Tài xế → Đăng ký bằng số điện thoại khác. Tài xế mới ở trạng thái chờ duyệt.
+- Đăng xuất. Chọn Admin → đăng nhập bằng tài khoản trong file data/TAI-KHOAN-ADMIN.txt trên Windows. File này được tạo khi chạy máy chủ lần đầu. Không chia sẻ mật khẩu hoặc gửi ảnh file này.
+- Admin vào Tài khoản → Duyệt tài xế.
+- Đăng xuất, đăng nhập lại Tài xế → Đơn mới → Nhận đơn → Đang giao → Đã lấy hàng → Đã giao thành công.
+- Khách hàng mở Đơn của tôi, kéo xuống để cập nhật trạng thái.
+
+MO-KHACH-HANG.cmd, MO-TAI-XE.cmd, MO-ADMIN.cmd mở cùng ứng dụng với khu vực đăng nhập được chọn sẵn. Chỉ mở một cửa sổ chạy trên cùng máy tính tại một thời điểm. Đóng cửa sổ cũ trước khi mở file khác.
+
+Dữ liệu tài khoản và đơn lưu trong thư mục data của máy tính. Giữ nguyên thư mục này để không mất dữ liệu khi khởi động lại. Bản tải ZIP mới không mang dữ liệu từ bản cũ. Có thể sao chép thư mục data sang thư mục mới sau khi đóng cửa sổ chạy cũ, nếu muốn giữ tài khoản và đơn.
+
+Dùng số điện thoại và thông tin thử. Chưa có OTP, khôi phục mật khẩu, bản đồ, thông báo đẩy hoặc thanh toán. Quán, món và phí giao là minh họa. Đây là bản thử trong mạng Wi-Fi riêng, chưa phải dịch vụ công khai; mật khẩu gửi qua HTTP nội bộ. Không mở cổng API ra Internet.
+
+Nếu báo mất kết nối: kiểm tra máy tính còn chạy, cùng Wi-Fi và quyền mạng Node.js. Địa chỉ máy chủ được lấy tự động từ QR. Nếu cần sửa, bấm Cài đặt kết nối máy tính ở màn hình đăng nhập.
