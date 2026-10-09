@@ -1,0 +1,21 @@
+{
+  "expo": {
+    "name": "Lâm Thao Ăn Gì?",
+    "slug": "lam-thao-an-gi",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.lamthao.angi"
+    },
+    "web": {
+      "name": "Lâm Thao Ăn Gì?"
+    },
+    "plugins": [
+      "expo-status-bar"
+    ]
+  }
+}

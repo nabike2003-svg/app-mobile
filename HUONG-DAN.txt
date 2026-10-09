@@ -1,0 +1,11 @@
+LÂM THAO ĂN GÌ? - BẢN MẪU
+
+1. Cài Node.js LTS trên Windows từ https://nodejs.org.
+2. Giải nén toàn bộ file ZIP.
+3. Nhấp đúp MO-UNG-DUNG.cmd trong thư mục đã giải nén.
+4. Đợi cài xong và xuất hiện QR. Giữ cửa sổ này mở.
+5. Máy tính và iPhone dùng cùng Wi-Fi. Mở Camera iPhone quét QR, chọn mở bằng Expo Go.
+
+Nếu Windows hỏi quyền mạng của Node.js, cho phép trên mạng Wi-Fi riêng mà bạn tin cậy.
+Nếu có lỗi hoặc Expo Go báo không tương thích, chụp ảnh thông báo gửi trong chat.
+Bản mẫu chưa gửi đơn thật, chưa thanh toán. Dùng thông tin giả để thử.
